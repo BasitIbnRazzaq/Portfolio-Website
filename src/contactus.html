@@ -1,0 +1,47 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Portfolio</title>
+  <link rel="stylesheet" href="../styles/contactus.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="../src/home.html">Home</a></li>
+        <li><a href="../src/aboutus.html">About Us</a></li>
+        <li><a href="../src/projects.html">Projects</a></li>
+        <li><a href="../src/contactus.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Us Section -->
+  <section class="contactus-section">
+    <div class="contact-container">
+      <h1>Contact Me</h1>
+      <p>If you have any questions or would like to collaborate on a project, feel free to reach out!</p>
+
+      <!-- Contact Form -->
+      <form class="contact-form" action="mailto:ab4382906@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
