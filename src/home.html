@@ -3,28 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
+  <title>Home - Portfolio</title>
   <link rel="stylesheet" href="../styles/home.css">
 </head>
 <body>
-
   <!-- Navbar -->
   <header>
     <nav>
       <ul class="navbar">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="../src/aboutus.html">About Us</a></li>
+        <li><a href="../src/projects.html">Projects</a></li>
+        <li><a href="../src/contactus.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="content">
+  <!-- Hero Section -->
+  <section class="hero">
     <h1>Welcome to My Portfolio</h1>
-    <p>Explore my work and get to know more about me!</p>
+    <p>Explore my journey as a Software Engineer and my showcased projects.</p>
+    <button onclick="location.href='../src/'">View My Projects</button>
   </section>
 
+  <!-- Image and Name Section -->
+  <section class="image-section">
+    <div class="image-container">
+      <img src="../image/image1.jpg" alt="Profile Picture" class="image first-image">
+    </div>
+    <div class="name-container">
+      <h2>Abdul Basit Ibn Razzaq</h2>
+    </div>
+  </section>
 </body>
 </html>
